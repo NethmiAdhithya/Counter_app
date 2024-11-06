@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter {
+    display: block;
+    font-size: 128px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.history-log {
+    justify-content: flex-end;
+}
+
+.button {
+    display: inline-block;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+}
+
+.button.amber {
+    background-color: orange;
+}
+
+.button.red {
+    background-color: crimson;
+}
+
+.button.green {
+    background-color: forestgreen;
+}
+
+.button.blue {
+    background-color: blue;
+}
